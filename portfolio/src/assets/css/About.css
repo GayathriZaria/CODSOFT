@@ -1,0 +1,54 @@
+.div{
+    color: white;
+}
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+  
+  .pro{
+  background-image:url('../images/profile.jpeg');
+  }
+
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    object-fit: cover;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
